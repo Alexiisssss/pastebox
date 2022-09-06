@@ -4,9 +4,9 @@ import lombok.Data;
 
 
 @Data
-public class PasteBoxRequest {
+public class PasteboxRequest {
   private String data;
-  private long ExpirationsTime;
+  private long expirationsTime;
   private PublicStatus publicStatus;
 
 }
